@@ -1,15 +1,9 @@
 import './globals.css'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="fr">
-      <body className="min-h-screen bg-white">
-        {children}
-      </body>
+      <body className="min-h-screen bg-white">{children}</body>
     </html>
   )
 }
