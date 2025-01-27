@@ -4,6 +4,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Inouie Distribution',
   description: 'Plateforme de distribution de produits',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
