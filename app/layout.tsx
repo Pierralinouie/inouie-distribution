@@ -3,10 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Inouie Distribution',
-  description: 'Plateforme de distribution de produits',
-  icons: {
-    icon: '/favicon.ico'
-  }
+  description: 'Plateforme de distribution de produits'
 }
 
 export default function RootLayout({
@@ -16,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="icon" href="data:," />
+      </head>
       <body className="min-h-screen bg-white">
         {children}
       </body>
